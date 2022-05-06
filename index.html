@@ -15,10 +15,19 @@
         <script src="main.js"></script>
     </head>
     <body class="main-container">
-        <div class="continue from here ....">
+        <div class="game-container">
             <div class="title">Flag Game</div>
             <div class="subtitle">Guess the flag to progress to the next level</div>
-            <img id="flag-image" /> <input type="text" id="answer-input" />
+            <img id="flag-image" />
+            <div class="input-container">
+                <input type="text" id="answer-input" placeholder="Enter your answer here..." />
+                <button id="skip-button">SKIP</button>
+            </div>
+            <div class="progress">
+                <div id="success-counter">0</div>
+                /
+                <div id="total-count">0</div>
+            </div>
         </div>
     </body>
 </html>

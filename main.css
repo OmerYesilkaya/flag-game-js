@@ -11,10 +11,9 @@ body {
     height: 100vh;
     background-color: rgb(207, 217, 222);
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    flex-direction: column;
 }
 
 .title {
@@ -27,14 +26,73 @@ body {
     font-size: large;
 }
 
+.game-container {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    max-width: 28rem;
+    gap: 10px;
+    transform: translateY(-100px);
+}
+
+.input-container {
+    display: flex;
+    gap: 5px;
+}
+
+#skip-button {
+    width: 100%;
+    background-color: #e87325;
+    color: white;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: 150ms;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pass-button:hover {
+    background-color: #d2511e;
+}
+.pass-button:active {
+    background-color: #b52e13;
+}
+
 #answer-input {
     border-radius: 6px;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
     width: 100%;
+    border: none;
+    height: 40px;
+    padding: 6px 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
 }
 
 #flag-image {
     border-radius: 5px;
     width: 100%;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.progress {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+#success-counter {
+}
+#total-count {
 }
