@@ -168,7 +168,7 @@ const countries = [
     { answer: "Oman", code: "OM" },
     { answer: "Pakistan", code: "PK" },
     { answer: "Palau", code: "PW" },
-    { answer: "Palestine, State of", code: "PS" },
+    { answer: "Palestine", code: "PS" },
     { answer: "Panama", code: "PA" },
     { answer: "Papua New Guinea", code: "PG" },
     { answer: "Paraguay", code: "PY" },
